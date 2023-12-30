@@ -195,7 +195,7 @@ async def balance_command(ctx: SlashContext):
         Option(name="query", description="Mot clé de recherche", type=OptionType.STRING)
     ]
 )
-async def search_command(ctx: SlashContext, search: str):
+async def search_command(ctx: SlashContext, query: str):
     await ctx.defer()
     ran = random.randint(0, 9)
     resource = build("customsearch", "v1", developerKey=api_key).cse()
