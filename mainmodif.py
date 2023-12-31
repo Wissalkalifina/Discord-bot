@@ -33,4 +33,4 @@ async def showpic(ctx, *, search):
 
 
 # Lancement du bot
-client.run('MTE4OTU3Nzk0ODU3NjA5MjIyMA.GMtA5U.p6S3hRSp_jxgdSMjd-ikJLGbI1MVFjZsShRvlc')
+client.run('TOKEN')
